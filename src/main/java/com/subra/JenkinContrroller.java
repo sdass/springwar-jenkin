@@ -9,6 +9,6 @@ public class JenkinContrroller {
 	@GetMapping("/greet")
 		String sayHi(){
 			System.out.println("in sayHi()...");
-			return "Test Jenkins works!";
+			return "Test Jenkins works indeed!";
 		}
 }
